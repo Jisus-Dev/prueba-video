@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const options = {
         // OBLIGATORIO: Ruta a la carpeta que descomprimiste
         // Asegúrate que 'actividad-h5p' coincide con el nombre de tu carpeta
-        h5pJsonPath: 'videoprueba', 
+        h5pJsonPath: 'video2', 
         
         // Rutas a los archivos del reproductor (del CDN)
         frameJs: 'https://cdn.jsdelivr.net/npm/h5p-standalone@3.5.0/dist/frame.bundle.js',
