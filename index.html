@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Actividad H5P</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@3.5.0/dist/styles/h5p.css">
+    
+    <style>
+        /* Estilo para el contenedor */
+        #h5p-container {
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            overflow: auto;
+            min-height: 800px;
+        }
+        
+        /* Asegura que el iframe se adapte */
+        #h5p-container iframe {
+            width: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Actividad Interactiva</h1>
+    
+    <div id="h5p-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/h5p-standalone@3.5.0/dist/main.bundle.js"></script>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
